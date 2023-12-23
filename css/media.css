@@ -1,0 +1,134 @@
+/* Desctop */
+
+@media (max-width: 1440px) {}
+@media (max-width: 1320px) {}
+@media (max-width: 1290px) {}
+@media (max-width: 1170px) {}
+@media (max-width: 1140px) {}
+@media (max-width: 1024px) {}
+
+/* Tab */
+@media (max-width: 992px) {}
+@media (max-width: 850px) {}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .header__headertop {
+        display: flex ;
+        align-items: center ;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .header__headertop-image {
+        max-width: 150px !important;
+        width: 100%;
+    }
+    .header__img {
+        width: 100px;
+    }
+    .header__image {
+        width: 100px;
+    }
+    .header__menu-img {
+        max-width: 500px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .header__menu-h1 {
+        color: var(--White, #FFF);
+        text-align: center;
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 60px;
+    }.about__cards{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        margin-bottom: 50px;
+    }.profile__menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .profile__menu-circle {
+        width: 281px;
+        height: 281px;
+        transform: translateX(120px) translateY(-100px);
+    }
+    .profile__menu {
+        margin-top: 80px;
+        width: 100%;
+    }
+    .profile__menu-card {
+        width: 300px;
+        height: 375px;
+        transform: translateX(-140px) translateY(90px);
+    }
+    .profile__menu-title {
+        color: var(--White, #FFF);
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 56px; 
+    }
+    .profile__menu-image {
+        width: 173px;
+        height: 230px;
+    }
+    .profile__menu {
+        margin-bottom: 20%;
+    }
+}
+@media (max-width: 736px) {}
+@media (max-width: 684px) {}
+
+/* Mobile < 576 */
+@media (max-width: 576px) {}
+@media (max-width: 480px) {}
+@media (max-width: 412px) {}
+@media (max-width: 375px) {}
+@media (max-width: 343px) {
+    .header__menu-img {
+        margin-top: 170px;
+        width: 298.305px;;
+    }
+    .header__headertop-image {
+        width: 95.762px;
+        height: 24.608px;
+    }
+    .header__headertop-h2 {
+        width: 125px;
+        
+    }
+    .profile__menu {
+        display: flex;
+        flex-direction: column;
+    }
+    .about__cards {
+        display: flex;
+        flex-direction: column;
+    }
+    .profile__menu-card {
+        width: 514px;
+        height: 375px;
+    }
+    .profile__menu-title {
+        color: var(--White, #FFF);
+        text-align: center;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 48px; 
+    }
+    .header__image {
+        display: none;
+    }
+    .header__img {
+        display: none;
+    }
+    .header{
+        position: relative;
+    }
+    .header__headertop{
+        position: absolute;
+        top: 32px;
+        left: 0;
+    }
+}

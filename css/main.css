@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.all-btn {
+    width: 190px;
+    background: var(--green);
+    color: #24053E;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    padding: 16px 32px;
+    transition: .5s;
+    border: 1px solid var(--green);
+}
+
+
+.all-btn:hover {
+    color: #44FFA1;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    background: transparent;
+    padding: 16px 32px;
+    border: 1px solid #44FFA1;
+}
+
+
+:root {
+    --darkblue: #24053E;
+    --green: #44FFA1;
+    --gray: #584D62;
+    --white: #FCF8FF;
+}
+
+
+/* header */
+
+
+.header {
+    background: var(--darkblue);
+    width: 100%;
+    padding: 57px 165px;
+    height: 730px;
+    margin-bottom: 50px;
+}
+
+
+.header__img {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 20%;
+}
+
+
+.header__image {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 50%;
+}
+
+
+.header__headertop {
+    display: flex ;
+    align-items: center ;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.header__headertop-image {
+    width: 150px;
+}
+
+
+.header__headertop-h2 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+}
+
+
+.header__headertop-h2::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: transparent;
+    transition: .5s;
+}
+
+
+.header__headertop-h2:hover::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: var(--green);
+}
+
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.header__menu-h1 {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 80px;
+    padding: 63px 20px 37px 20px;
+}
+
+
+.header__menu-img {
+    position: absolute;
+    top: 480px;
+}
+
+
+/* header */
+
+
+/* about */
+
+
+.about {
+    margin-top: 20%;
+    margin-bottom: 25%;
+}
+
+
+.about__menu-p {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 1px solid #584D62;
+    text-align: center;
+    padding-top: 7px;
+    color: #24053E;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+
+.about__cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 26px;
+    margin: auto;
+}
+
+
+.about__menu-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 28px;
+}
+
+
+.about__menu-h4 {
+    color: var(--Dark-Purple, #24053E);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+
+.about__menu-list {
+    width: 354px;
+    color: #24053E;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+/* about */
+
+
+/* profile */
+
+
+.profile {
+    margin-bottom: 10%;
+}
+
+
+.profile__menu-circle {
+    width: 477px;
+    height: 477px;
+    border-radius: 50%;
+    background: #44FFA1;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    margin-left: -700px;
+    margin-top: -300px;
+}
+
+
+.profile__menu-img {
+    display: flex;
+    margin-top: 8%;
+}
+
+
+.profile__menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.profile__menu-card {
+    width: 730px;
+    padding: 64px;
+    background: var(--darkblue);
+    row-gap: 32px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+}
+
+
+.profile__menu-title {
+    color: var(--White, #FFF);
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 64px; 
+}
+
+
+.profile__menu-about {
+    color: var(--White, #FFF);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+.profile__menu-image {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 400px;
+    z-index: 1;
+}
+
+
+/* profile */
+
+
+/* footer */
+
+
+.footer__menu {
+    text-align: center;
+    justify-content: center;
+}
+
+
+.footer {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+/* footer */
+
